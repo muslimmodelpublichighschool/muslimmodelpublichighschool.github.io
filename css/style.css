@@ -1,0 +1,243 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+#second{
+    margin: 20px 7%;
+}
+#second h2{
+    margin-bottom: 10px;
+    font-size: 28px;
+    font-weight: 700;
+}
+#second p{
+    font-size: 18px;
+}
+
+#third{
+    margin: 40px 7%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+}
+#third .left{
+    background: url("../img/h1.jpg");
+    min-height: 209.02px;
+    height: 209.02px;
+    padding: 25px;
+    width: 50%;
+}
+#third .left p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#third .right{
+    background: url("../img/h2.jpg");
+    min-height: 209.02px;
+    height: 209.02px;
+    padding: 25px;
+    width: 50%;
+}
+#third h3{
+    font-weight: 700;
+    line-height: 1.42857143;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+#third p{
+    margin: 0 0 10px;
+    font-weight: 300;
+}
+
+#fourth{
+    display: flex;
+    /* font-family: sans-serif; */
+}
+#fourth .left{
+    /* background-color: #0026ff; */
+    width: 50%;
+    padding: 0px 15px;
+    height: 650px;
+    min-height: 650px;
+}
+#fourth .left .content{
+    padding: 60px 20px 40px 50px;
+}
+#fourth .left .content h2{
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+}
+#fourth .left .content .box{
+    display: flex;
+}
+#fourth .left .content .box .inner-content{
+    display: flex;
+}
+#fourth .left .content .box img{
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 35px;
+    margin: 15px;
+}
+#fourth .left .content .box .inner_content{
+    padding: 15px;
+}
+#fourth .right{
+    width: 50%;
+    overflow: hidden;
+}
+#fourth .right img{
+    /* height: 650px; */
+    /* min-height: 650px; */
+    overflow-x: hidden;
+    height: 100%;
+}
+
+#fifth{
+    margin: 20px 7%;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+#fifth img{
+    width: 100%;
+    height: auto;
+}
+/* #sixth img.back{
+    z-index: -2;
+    width: 100%;
+    height: 100vh;
+} */
+#sixth{
+    background: url("../img/bg_header.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 0% 37%;
+    /* width: 100%; */
+    height: 100%;
+    position: relative;
+    color: white;
+    z-index: -2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 70px 15%;
+}
+#sixth::before{
+    content: "";
+    background: rgba(17, 17, 17, 0.5) none repeat scroll 0 0;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+#sixth .box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 30px;
+    margin: 0px 30px;
+}
+#sixth .box i{
+    font-size: 45px;
+}
+#sixth .box h2{
+    font-size: 38px;
+    margin: 10px 0px;
+}
+#sixth .box h4{
+    font-size: 18px;
+    margin: 10px 0px;
+    font-weight: 700;
+}
+#seventh{
+    margin: 20px 7%;
+}
+/* #seventh .top{
+    margin: 20px 0px;
+} */
+#seventh h2{
+    font-size: 28px;
+    font-weight: 700;
+    color: #333333;
+    margin-bottom: 10px;
+}
+#seventh p{
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #666666;
+    line-height: 1.7;
+}
+
+
+
+@media screen and (max-width: 980px){
+    #second h2{
+        font-size: 22px;
+    }
+    #second p{
+        font-size: 14px;
+    }
+    #third{
+        flex-direction: column;
+    }
+    #third .left,
+    #third .right{
+        width: 80%;
+        height: auto;
+        padding: 20px;
+    }
+    #third h3{
+        font-size: 22px;
+    }
+    #third p{
+        font-size: 14px;
+    }
+    #fourth{
+        flex-direction: column;
+    }
+    #fourth .left,
+    #fourth .right{
+        width: auto;
+        height: auto;
+    }
+    #fourth .left .content h2{
+        font-size: 22px;
+    }
+    #fourth .left .content .box .inner-content{
+        flex-direction: column;
+        align-items: center;
+    }
+    #fourth .left .content {
+        padding: 60px 20px 40px 20px;
+    }
+    #fourth .right{
+        display: none;
+    }
+    #sixth{
+        flex-direction: column;
+    }
+    #sixth .box i{
+        font-size: 40px;
+    }
+    #sixth .box h2{
+        font-size: 34px;
+    }
+    #sixth .box h4{
+        font-size: 16px;
+    }
+    #seventh h2{
+        font-size: 22px;
+    }
+}

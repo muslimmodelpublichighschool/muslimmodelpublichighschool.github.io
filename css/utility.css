@@ -1,0 +1,54 @@
+/* Utility Classes */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+body::-webkit-scrollbar{
+    width: 8px;
+    background-color: #EBECF0;
+    box-shadow: inset 7px 7px 15px rgba(55, 84, 170, .15),
+                -7px -7px 20px rgba(255, 255, 255, 1),
+                0px 0px 4px rgba(255, 255, 255, .2) !important;
+}
+body::-webkit-scrollbar-thumb{
+    background-color: #0026ff;
+    border-radius: 10px;
+}
+html{
+    scroll-behavior: smooth;
+}
+p{
+    margin: 0px;
+}
+.text-color-blue{
+    color: #0026ff !important;
+}
+.text-color-gray{
+    color: #666666 !important;
+}
+.text-color-black{
+    color: #000000;
+}
+.bg-color-blue{
+    background-color: #0026ff !important;
+}
+.bg-color-red{
+    background-color: #a31c2f !important;
+}
+.text-color-white{
+    color: #ffffff !important;
+}
+.upper-case{
+    text-transform: uppercase;
+}
+.center{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}

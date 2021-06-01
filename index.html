@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Muslim Model Public High School</title>
+    <!-- Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="keywords" content="Muslim Model Public High School">
+    <meta name="description"
+        content="Muslim Model Public High School is one of the prestigious institutions in Okara, established in 1998.">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <!-- My Main CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main-css.css">
+    <!-- My Other CSS -->
+    <link rel="stylesheet" href="css/utility.css">
+    <link rel="stylesheet" href="css/preloader.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap" rel="stylesheet">
+    <!-- Font Awsome Icon Links -->
+    <script src="https://kit.fontawesome.com/b8ec4f74a4.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <!-- AOS CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- My JS -->
+    <script src="script/preloader.js"></script>
+</head>
+
+<body onload="myFunction()">
+    <div id="preloader"></div>
+    <header id="header">
+        <div class="left">
+            <div class="info">
+                <i class="fas fa-phone-alt"></i>
+                <p>044-2703349 / 0336-6659271</p>
+            </div>
+            <div class="info">
+                <i class='far fa-clock'></i>
+                <p>8:00 to 2:00</p>
+            </div>
+            <div class="info">
+                <i class='far fa-envelope'></i>
+                <p>atifzia77@gmail.com</p>
+            </div>
+        </div>
+        <div class="right">
+            <a href="#" target="_blank"><i class="fab fa-facebook-square"></i></a>
+            <p class="text-color-white">|</p>
+            <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+            <p class="text-color-white">|</p>
+            <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+            <p class="text-color-white">|</p>
+            <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+    </header>
+    <nav id="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="#">
+                    <img src="img/logo.png" alt="">
+                </a>
+            </div>
+            <ul>
+                <li>
+                    <a href="#" class="upper-case active">Home</a>
+                </li>
+                <li>
+                    <a href="/about-us.html" class="upper-case">About</a>
+                </li>
+                <li>
+                    <a href="/admissions.html" class="upper-case">Admissions</a>
+                </li>
+                <li>
+                    <a href="/campus.html" class="upper-case">Campus</a>
+                </li>
+                <li>
+                    <a href="/careers.html" class="upper-case">Careers</a>
+                </li>
+                <li>
+                    <a href="/contact-us.html" class="upper-case">Contact Us</a>
+                </li>
+            </ul>
+            <i class="fa fa-navicon" id="open" onclick="navOpen()"></i>
+            <i class="fa fa-navicon" id="close" onclick="navClose()" style="display: none;"></i>
+        </div>
+
+        <ul id="nav_side">
+            <a href="#" class="upper-case active text-color-white bg-color-blue">Home</a>
+            <a href="/about-us.html" class="upper-case text-color-black">About</a>
+            <a href="/admissions.html" class="upper-case text-color-black">Admissions</a>
+            <a href="/campus.html" class="upper-case text-color-black">Campus</a>
+            <a href="/careers.html" class="upper-case text-color-black">Careers</a>
+            <a href="/contact-us.html" class="upper-case text-color-black">Contact Us</a>
+
+        </ul>
+    </nav>
+
+    <!-- <section id="nav_side">
+        <div class="logo">
+            <img src="img/logo.png" style="height: 70px;" alt="">
+        </div>
+        <ul>
+            <li>
+                <a href="#" class="upper-case active">Home</a>
+            </li>
+            <li>
+                <a href="MMPHS/about-us.html" class="upper-case">About</a>
+            </li>
+            <li>
+                <a href="MMPHS/admissions.html" class="upper-case">Admissions</a>
+            </li>
+            <li>
+                <a href="MMPHS/life at campus.html" class="upper-case">Academics</a>
+            </li>
+            <li>
+                <a href="#" class="upper-case">Campus</a>
+            </li>
+            <li>
+                <a href="MMPHS/careers.html" class="upper-case">Careers</a>
+            </li>
+        </ul>
+    </section> -->
+
+    <section id="first">
+        <!-- <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" style="z-index: -1;">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/bg1.jpg" style="height: 78.6vh;" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/bg2.jpg" style="height: 78.6vh;" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/bg3.jpg" style="height: 78.6vh;" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </a>
+          </div> -->
+        <img src="img/school-2-home.jpg" alt=""
+            style="width: 100%; display: flex; align-items: center; justify-content: center;">
+
+
+
+        <!-- <div class="slider">
+              <div class="banner1">
+                  <img src="img/school.jpg" alt="">
+                  <div class="text-box">
+                      <h1>23 YEARS</h1>
+                      <h3>OF EXCELLENCE IN EDUCATION</h3>
+                      <p>We offer an educational program that fosters a love of learning.</p>
+                      <a href="MMPHS/about-us.html">View Details</a>
+                  </div>
+              </div>
+          </div> -->
+
+
+
+    </section>
+
+    <section id="second">
+        <h2 class="upper-case">
+            WELCOME TO
+            <span class="text-color-blue">Muslim Model Public High School</span>
+        </h2>
+        <p class="text-color-gray">Muslim Model Public High School is one of the prestigious institutions in Okara,
+            established in 1998. It provides education to children from 2 to 15 years of age for academic levels Play
+            Group to 9th.</p>
+    </section>
+
+    <section id="third">
+        <div class="left" data-aos="fade-right">
+            <h3 class="upper-case">OUR MISSION</h3>
+            <p>Our mission is to empower students with knowledge and wisdom to thrive as academically sound, technically
+                proficient, morally conscientious and socially adaptive citizens of a global society.</p>
+        </div>
+        <div class="right" data-aos="fade-left">
+            <h3 class="upper-case">OUR VISION</h3>
+            <p>Our vision is to establish our identity as an institution forming a central part of a promising social
+                and cultural community.</p>
+        </div>
+    </section>
+
+
+    <section id="fourth">
+        <div class="left bg-color-blue" data-aos="fade-right">
+            <div class="content">
+                <h2 class="upper-case">PRINCIPLES & CORE VALUES</h2>
+                <!-- <div class="box">
+                    <img src="img/1.png" alt="">
+                    <div class="inner-content">
+                        <h4>Facilitating Leadership</h4>
+                        <p>“Leaders are born not made”. At Muslim Model Public High School this cliché is reversed as “Leaders are made not born” as we believe in cultivating leadership qualities by developing curricula and polishing strengths of our students.</p>
+                    </div>
+                </div> -->
+                <div class="box">
+                    <div class="inner-content">
+                        <div class="img">
+                            <img src="img/1.png" alt="">
+                        </div>
+                        <div class="heading">
+                            <h4>Facilitating Leadership</h4>
+                            <p>“Leaders are born not made”. At Muslim Model Public High School this cliché is reversed
+                                as “Leaders are made not born” as we believe in cultivating leadership qualities by
+                                developing curricula and polishing strengths of our students.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="inner-content">
+                        <div class="img">
+                            <img src="img/2.png" alt="">
+                        </div>
+                        <div class="heading">
+                            <h4>Passionately Pursuing Performance</h4>
+                            <p>At Muslim Model Public High School we believe in motivating our students and employees
+                                intrinsically and extrinsically to achieve excellence.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="inner-content">
+                        <div class="img">
+                            <img src="img/3.png" alt="">
+                        </div>
+                        <div class="heading">
+                            <h4>Technology Based Teaching</h4>
+                            <p>In order to compete with the modern world our institution's mandatory and optional course
+                                work is IT integrated.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="inner-content">
+                        <div class="img">
+                            <img src="img/4.png" alt="">
+                        </div>
+                        <div class="heading">
+                            <h4>The Teamwork Approach</h4>
+                            <p>Collaboration leads to new and innovative ideas. Therefore, we believe in honing team
+                                work approach.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <img src="img/ab1.jpg" alt="">
+        </div>
+    </section>
+
+
+    <section id="fifth" data-aos="zoom-in">
+        <img src="img/Respect.jpg" alt="">
+    </section>
+
+
+    <section id="sixth">
+        <div class="box first">
+            <i class="fas fa-school"></i>
+            <h2 class="text-color-white count">1</h2>
+            <h4 class="upper-case text-color-white">CAMPUS</h4>
+        </div>
+        <div class="box second">
+            <i class="fa fa-book text-color-white"></i>
+            <h2 class="text-color-white count">23</h2>
+            <h4 class="upper-case text-color-white">YEARS</h4>
+        </div>
+        <div class="box third">
+            <i class="fas fa-user-graduate text-color-white"></i>
+            <h2 class="text-color-white count">1000</h2>
+            <h4 class="upper-case text-color-white">STUDENTS</h4>
+        </div>
+    </section>
+
+
+
+    <section id="seventh">
+        <div class="top">
+            <h2 class="center upper-case"><span class="text-color-blue">MUSLIM MODEL PUBLIC HIGH SCHOOL</span> TEAM</h2>
+            <p class="center">Our team of talented, dedicated, and experienced school staff is committed to instilling a
+                love of learning in your child.</p>
+        </div>
+        <!-- Our vision is to be acknowledged as an institute that provides quality education with modern teaching techniques yet having traditional roots intact. -->
+        <!-- <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/logo.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/logo.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/logo.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+          </div>
+          <div class="spinner-border text-danger" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div> -->
+    </section>
+
+
+    <footer id="footer">
+        <div class="content" style="background-image: url('img/footer-bg.png');">
+            <div class="box" id="box-1">
+                <a href="#">
+                    <img src="img/logo.png" alt="">
+                </a>
+                <p>Muslim Model Public High School (MMPHS) was established in 1998 with the prime objective of providing
+                    quality education.</p>
+                <div class="social-links" data-aos="fade-right">
+                    <a href="" class="social-1"><i class="fab fa-facebook-f"></i></a>
+                    <a href="" class="social-2"><i class="fab fa-twitter"></i></a>
+                    <a href="" class="social-3"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="" class="social-4"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="box" id="box-2">
+                <h5 class="text-color-white">Useful Links</h5>
+                <div class="useful-links">
+                    <a href="/about-us.html">About</a>
+                    <a href="/admissions.html">Admissions</a>
+                    <a href="/careers.html">Careers</a>
+                    <a href="/campus.html">Life at Campus</a>
+                    <a href="/contact-us.html">Contact</a>
+                </div>
+            </div>
+            <div class="box" id="box-3">
+                <h5 class="text-color-white">Quick Contact</h5>
+                <div class="quick-contact">
+                    <a href="#">044-2703349 / 0336-6659271</a>
+                    <a href="#">atifzia77@gmail.com</a>
+                    <a href="#">9-Z-Block, Main Road, Govt Colony Okara</a>
+                </div>
+            </div>
+            <div class="box" id="box-4">
+                <div class="fb-page"
+                    data-href="https://www.facebook.com/pages/category/School/Muslim-Model-Public-High-School-okara-106402214233026/"
+                    data-tabs="timeline" data-width="" data-height="300" data-small-header="false"
+                    data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false">
+                    <blockquote
+                        cite="https://www.facebook.com/pages/category/School/Muslim-Model-Public-High-School-okara-106402214233026/"
+                        class="fb-xfbml-parse-ignore"><a
+                            href="https://www.facebook.com/pages/category/School/Muslim-Model-Public-High-School-okara-106402214233026/">Muslim
+                            Model Public High School</a></blockquote>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p class="center text-color-white">Copyright &copy; 2020 MUSLIM MODEL PUBLIC HIGH SCHOOL All Rights
+                Reserved, Website Developed By Abdul Wasay</p>
+        </div>
+    </footer>
+    <!-- <script src="script/script.js"></script> -->
+    <script>
+        var nav = document.getElementById("nav_side");
+        var navm = document.getElementById("navbar");
+        var open = document.getElementById("open");
+        var close = document.getElementById("close");
+        function navOpen() {
+            nav.style.height = "324px";
+            navm.style.height = "324px";
+            open.style.display = "none";
+            close.style.display = "block";
+        }
+        function navClose() {
+            nav.style.height = "55px";
+            navm.style.height = "55px";
+            open.style.display = "block";
+            close.style.display = "none";
+        }
+    </script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+        integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
+        crossorigin="anonymous"></script>
+    <!-- AOS SCRIPT -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 120,
+            duration: 1000,
+            once: false,
+        });
+    </script>
+</body>
+
+</html>
